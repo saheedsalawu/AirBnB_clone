@@ -1,0 +1,19 @@
+header {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #CCCCCC;
+    display: flex;
+}
+
+header div{
+    background: url(../images/logo.png), no-repeat;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 142px;
+    height: 60px;
+}
