@@ -1,11 +1,4 @@
 body {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
+      margin: 0;
+      padding: 0;
 }
