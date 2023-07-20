@@ -77,3 +77,55 @@ div.information div.number_bathrooms {
         font-size: 14px;
         margin: 2px 0px;
 }
+
+.places article div.amenities, .places article div.reviews {
+        margin-top: 40px;
+        width: 100%;
+}
+.places article div.amenities h2, .places article div.reviews h2 {
+        font-size: 16px;
+        border-bottom: 1px solid #DDDDDD;
+        text-align:left;
+        padding-left: 0px;
+        padding-bottom: 10px;
+
+}
+
+article div.amenities ul, div.reviews ul {
+        padding: 0px;
+        display: block;
+}
+article div.amenities ul {
+        margin-bottom: 0px;
+}
+article div.amenities ul li, article div.reviews ul li {
+        list-style: none;
+}
+article div.amenities ul li {
+        height: 25px;
+        width: 25px;
+        background-repeat: no-repeat;
+        background-position: center left;
+        background-size: cover;
+}
+
+div.amenities ul li.TV {
+        background-image: url(../images/icon_tv.png);
+}
+div.amenities ul li.Wifi {
+        background-image: url(../images/icon_wifi.png);
+}
+div.amenities ul li.Peta {
+        background-image: url(../images/icon_pets.png);
+}
+div.reviews ul li h3 {
+        font-size: 14px;
+}
+div.reviews ul li p , article div.amenities ul li p {
+        font-size: 12px;
+}
+div.amenities ul li p {
+        width: 100px;
+        margin-left: 40px;
+        padding-top: 8px;
+}
